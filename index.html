@@ -1,0 +1,675 @@
+            <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Decima Aplicacion</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head><body onLoad="MM_preloadImages('imagenes/a.jpg','imagenes/capcerr.jpg','imagenes/exca.jpg','imagenes/cerro.jpg','imagenes/atl2.jpg','imagenes/templo.jpg')">
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Atlixco Puebla</h1>
+</div>                                                               
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/images.jpg" alt="images" title="images" id="wows1_0"/></li>
+		<li><img src="data1/images/atl.jpg" alt="atl" title="atl" id="wows1_1"/></li>
+		<li><img src="data1/images/atlixcopuebla1.jpg" alt="Atlixco-Puebla-1" title="Atlixco-Puebla-1" id="wows1_2"/></li>
+		<li><img src="data1/images/descarga.jpg" alt="descarga" title="descarga" id="wows1_3"/></li>
+		<li><img src="data1/images/descarga1.jpg" alt="descarga1" title="descarga1" id="wows1_4"/></li>
+		<li><img src="data1/images/images_1.jpg" alt="images (1)" title="images (1)" id="wows1_5"/></li>
+		<li><img src="data1/images/images_2.jpg" alt="images (2)" title="images (2)" id="wows1_6"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/images_3.jpg" alt="jquery slideshow" title="images (3)" id="wows1_7"/></a></li>
+		<li><img src="data1/images/images_4.jpg" alt="images (4)" title="images (4)" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="images"><span><img src="data1/tooltips/images.jpg" alt="images"/>1</span></a>
+		<a href="#" title="atl"><span><img src="data1/tooltips/atl.jpg" alt="atl"/>2</span></a>
+		<a href="#" title="Atlixco-Puebla-1"><span><img src="data1/tooltips/atlixcopuebla1.jpg" alt="Atlixco-Puebla-1"/>3</span></a>
+		<a href="#" title="descarga"><span><img src="data1/tooltips/descarga.jpg" alt="descarga"/>4</span></a>
+		<a href="#" title="descarga1"><span><img src="data1/tooltips/descarga1.jpg" alt="descarga1"/>5</span></a>
+		<a href="#" title="images (1)"><span><img src="data1/tooltips/images_1.jpg" alt="images (1)"/>6</span></a>
+		<a href="#" title="images (2)"><span><img src="data1/tooltips/images_2.jpg" alt="images (2)"/>7</span></a>
+		<a href="#" title="images (3)"><span><img src="data1/tooltips/images_3.jpg" alt="images (3)"/>8</span></a>
+		<a href="#" title="images (4)"><span><img src="data1/tooltips/images_4.jpg" alt="images (4)"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">wowslider.net</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<li class="ui-fisrt-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Ubicacion</h2>
+<p>Muestra informacion sobre de donde se ubica el munuicipio</p>
+</a>
+</li>
+<li class="ui-fisrt-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Atlixco</h2>
+<p>Muestra informacion sobre un pueblo magico.</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Ex-convento del carmen</h2>
+<p>Muestra la Historia de este ex-convento.</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Balnearios</h2>
+<p>Se muestran algunos de los balnearios que existen en atlixco.</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Hospital y Pinacoteca de San Juan de Dios</h2>
+<p>Se muestra la historia </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Templo de la merced</h2>
+<p>Se muestra informacion de este templo</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Gastronomia</h2>
+<p>Se muestra algunos platillos de la region </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Ex-convento de San Francisco</h2>
+<p>Se muestra la historia </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Calle de las Flores</h2>
+<p>Se muestran algunos lugares</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Datos del desarrollador </h2>
+<p>Se muestra infomacion del desarrollador</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="128" height="128">
+</div>
+<div>
+<h4>Heroica Atlixco Puebla</h4>
+<h4>Guia Turistica</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>UBICACION</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>UBICACION DE ATLIXCO PUEBLA.</h2>
+<img src="imagenes/UBI.jpg" width="500" height="500" />
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:40%">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+    <a href="https://www.google.com.mx/maps/place/Atlixco,+Pue./@18.9044051,-98.4816247,13z/data=!3m1!4b1!4m5!3m4!1s0x85cfb3eee015f935:0x5c4b12a3f9f700e7!8m2!3d18.9131227!4d-98.4293891" target="_self" data-role="button">
+       <h2>MAS INFORMACION</h2>
+       </a>
+    </li>
+   </ul> 
+   </div>
+ </div>
+ </div>
+  </div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="113" height="95">
+</div>
+<div>
+<h4>Guia Turistica</h4>
+<h4>Heroica Atlixco Puebla</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Atlixco</h1>
+
+</div>
+<div data-role="content" align="left">
+<div>
+<p>El último domingo de septiembre, en la explanada del cerro de San Miguel, Atlixco se convierte en la sede de un festival en el que se reúnen los representantes de las once regiones culturales del estado de Puebla, festival que es llamado «Huey Atlixcáyotl» o Fiesta Grande de Atlixco y que es patrimonio cultural del estado de Puebla.
+ El valle de Atlixco se hallaba ocupado por pobladores de origen Teochichimeca, Chichimeca y Xicalancas que bajo el dominio de la gran Tenochtitlan, se asentaron primeramente al poniente del cerro de San Miguel, hoy Solares Grandes. Estos primeros pueblos fundaron así Quauhquechollan (Águila que huye) y que tiempo después llamaron Acapetlahuacan, "Lugar de división del señorío". Su posición geográfica hizo que fuera escenario de luchas entre los diversos grupos indígenas que estaban asentados en los alrededores. Los pueblos de Calpan, Huejotzingo y Cholula se disputaron en diversas épocas la posesión del valle, que con la llegada de los españoles se encontraba bajo el dominio de Huejotzingo.
+</p>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Flores</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/ima.jpg',1)"><img src="imagenes/image.jpg" name="Image29" width="50%" height="50%" id="Image29"></a> </div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Lugares</h1>
+<div>
+<p></p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','imagenes/atl2.jpg',1)"><img src="imagenes/atl1.jpg" width="50%" height="50%" id="Image50"></a><br>
+</div>
+<div></div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Atlixco</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/images.jpg',1)"><img src="imagenes/atl.jpg" width="50%" height="50%" id="Image13"></a> </div>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="128" height="128">
+</div>
+<h4>Guia Turistica</h4>
+<h4>Heroica Atlixco Puebla</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Ex-convento  </h1>
+</div>
+<div data-role="content" align="left">
+<div>
+<h2>Ex-Convento del Carmen</h2>
+ <p>La Iglesia y el Convento del Carmen fue fundada en Atlixco por la orden de los Carmelitas y data de 1600 a 1620. En su interior cuenta con un claustro pequeño, uno o dos claustros grandes, huerta, dependencias e iglesia anexa a todo el convento, al igual que todas las construcciones de la orden.
+A lo largo de su historia ha sido sido utilizado como sede del Gobierno Municipal, Palacio de Justicia e incluso como Cuartel de tropas federales durante la Revolución mexicana. En la actualidad es sede del Centro Cultural del Carmen.</p>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Exconvento</h1>
+<div>
+<p></p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','imagenes/exca.jpg',1)"><img src="imagenes/exc.jpg" width="50%" height="50%" id="Image46"></a><br>
+</div>
+<div></div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Lugares </h1>
+<div>
+<p></p>
+<br>
+</div>
+<div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/exc1.jpg',1)"><img src="imagenes/exc3.jpg" name="Image12" width="50%" height="50%" id="Image12"></a> </div>
+</div>
+</div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/excar.jpg" alt="excar" title="excar" id="wows2_0"/></li>
+		<li><img src="data2/images/exc.jpg" alt="exc" title="exc" id="wows2_1"/></li>
+		<li><img src="data2/images/exc1.jpg" alt="exc1" title="exc1" id="wows2_2"/></li>
+		<li><img src="data2/images/exc3.jpg" alt="exc3" title="exc3" id="wows2_3"/></li>
+		<li><img src="data2/images/exca.jpg" alt="exca" title="exca" id="wows2_4"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data2/images/exca1.jpg" alt="slider" title="exca1" id="wows2_5"/></a></li>
+		<li><img src="data2/images/exca2.jpg" alt="exca2" title="exca2" id="wows2_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="excar"><span><img src="data2/tooltips/excar.jpg" alt="excar"/>1</span></a>
+		<a href="#" title="exc"><span><img src="data2/tooltips/exc.jpg" alt="exc"/>2</span></a>
+		<a href="#" title="exc1"><span><img src="data2/tooltips/exc1.jpg" alt="exc1"/>3</span></a>
+		<a href="#" title="exc3"><span><img src="data2/tooltips/exc3.jpg" alt="exc3"/>4</span></a>
+		<a href="#" title="exca"><span><img src="data2/tooltips/exca.jpg" alt="exca"/>5</span></a>
+		<a href="#" title="exca1"><span><img src="data2/tooltips/exca1.jpg" alt="exca1"/>6</span></a>
+		<a href="#" title="exca2"><span><img src="data2/tooltips/exca2.jpg" alt="exca2"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="128" height="128">
+</div>
+<h4>Guia Turistica</h4>
+<h4>Heroica Atlixco Puebla</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>BALNEARIOS</h1>
+
+</div>
+<div data-role="content" align="left">
+<div>
+     <h3>PÁRQUE RECREATIVO LA OYOA</h3>
+<p>Con tres hectáreas de áreas verdes limpias y seguras para toda la familia el Parque Recreativo Ayoa cuenta con áreas de toboganes con alberca y chapoteadero, canchas deportivas (futbol, basquetbol, volibol playero) y área de juegos de madera para niños. Hay palapas en las que podrá convivir en familia mientras disfruta las amenidades del parque y prepara una parrillada en los asadores que le facilitan en el mismo. También cuenta con tres áreas de vestidores y regaderas con agua caliente. Boutique, área de campamento y muy pronto con servicio de hospedaje. Cuenta con comida rápida, parrilladas, bar y para su comodidad servicio de meseros. Si lo prefiere puede introducir sus alimentos y bebidas en envases de lata o plástico.</p></div></div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>OYOA</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/ayo.jpg" width="72%" height="45%">
+</div>
+</div>
+
+
+
+ <div data-role="content" align="center">
+    <div>
+     <h3>AQUA PARAISO</h3>
+<p> El área de albercas y chapoteadero cuenta con toboganes, resbaladillas y una playa infantil tipo isla con 7 toboganes para niños. Tiene áreas de regaderas y vestidores. En la zona de acampar se pueden hacer fogatas durante la noche. Sus áreas verdes son grandiosas, tienen palapas y asadores e invitan a disfrutar un rato de esparcimiento entre amigos o con la familia. Cuenta con mini súper y cafetería con servicio de comida rápida, antojitos y parrillada. Si lo prefiere puede traer sus alimentos y bebidas envasados en lata o plástico. Cuenta con primeros auxilios.</p></div></div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>AQUA PARAISO</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/PARA.jpg" width="72%" height="45%">
+</div>
+</div>
+
+
+ <div data-role="content" align="center">
+    <div>
+    <h2> LAS FAJANAS</h2>
+<p>Enclavado en el paraíso, el centro recreativo Las Fajanas es uno de los balnearios con más tradición de Atlixco. Está rodeado de vegetación y a su vera una laguna en la que puede rentar una lancha por tan solo treinta pesos y pescar carpas o truchas para su consumo, a partir de las 7 de la mañana. Cuenta con 5 albercas, 2 chapoteaderos con juegos como un hongo o una cubeta sorpresa; una alberca grande con 2 toboganes, una mediana con una palmera y otra para nadar libremente. Tiene vestidores y regaderas.</p></div></div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>LAS FAJANAS</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/FA.jpg" width="72%" height="45%">
+</div>
+</div>
+
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="113" height="95">
+</div>
+<div>
+<h4>Guia Turistica</h4>
+<h4>Heroica Atlixco Puebla</h4>
+</div>
+</div>
+</div>
+</div>
+</h4></div></div><div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Pinacoteca de San Juan de Dios</h1>
+    </div>
+    <div data-role="content" align="left">
+      <div>
+        <p>En la Pinacoteca podrás apreciar la colección de la vida de San Juan de Dios, fundador de la orden de los “Juaninos” quienes se encargaban de los hospitales en la Nueva España. El acceso a la pinacoteca municipal se solicita previa cita en las oficinas de turismo.
+A un lado del hospital se encuentra la iglesia dedicada a San Rafael Arcángel, a quienes los juaninos se encomendaban.</p>
+         <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1></h1>
+<div>
+<p></p>
+<br>
+</div>
+<div><img src="imagenes/pin.jpg" name="Image" width="50%" height="50%" id="Image"></div>
+</div>
+</div>
+<p> </p>
+ <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1></h1>
+<div>
+<p></p>
+<br>
+</div>
+<div><img src="imagenes/pin2.jpg" name="Image" width="50%" height="50%" id="Image"></div>
+</div>
+</div>
+<p></p>
+ <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1></h1>
+<div>
+<p></p>
+<br>
+</div>
+<div><img src="imagenes/pina.jpg" name="Image" width="50%" height="50%" id="Image"></div>
+</div>
+</div>
+</div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="128" height="128">
+</div>
+           <h4>Guia Turistica</h4>
+           <h4>Heroica Atlixco Puebla</h4>
+      </div>
+  </div>
+</div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Templo de la Merced</h1>
+    </div>
+<div data-role="content" align="center">
+      <div>
+        <p>Los Mercedarios en 1612 fundan este convento dedicado a la Visitación de Nuestra Señora de la Merced. La fachada es un muro almenado con dos grandes portadas coronadas por un nicho, un magnífico ejemplo del barroco de principios del s. XVIII.
+El interior de la iglesia es de una sola nave de gran altura con crucero y cúpula. En la Iglesia se conservan interesantes pinturas. Accediendo al convento se encuentra un claustro sencillo con fuente y una interesante puerta de piedra con arco de medio punto decorada con flores y aves.</p>
+</div>
+ <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h>Templo</h1>
+<div>
+<p></p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image64','','imagenes/templo.jpg',1)"><img src="imagenes/templ.jpg" width="273" height="184" id="Image64"></a> </div>
+<div></div>
+</div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Templo</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div>
+<img src="imagenes/templ.jpg" width="50%" height="50%"></div>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:70%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://wikipuebla.poblanerias.com/iglesia-de-la-merced-en-atlixco/" target="_self" id="beep" data-role="button">
+      <h2>Conoce mas </h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="http://intoleranciadiario.com/detalle_noticia/111895/municipios/restauran-fachada-del-templo-de-la-merced/" target="_self" id="vibrar" data-role="button">
+         <h2>Templo </h2>
+         </a>
+        </li>
+      </ul>
+    </div>
+</div>
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="128" height="128">
+</div>
+        <h4>Guia Turistica</h4>
+        <h4>Heroica Atlixco Puebla</h4>
+      </div>
+</div>
+     </div>
+     </div>
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Gastronomia</h1>
+    </div>
+<div data-role="content" align="center">
+      <div>
+        <p>Algunos de los platillos de Atlixco son :CECINA,Taco Placero,Enchiladas,Barbacoa,Mole Poblano, Mole de Olla,Mole de Panza,Adobo,Chiles en nogada,Chalupas,Pambazos,Tostadas,Tamales entre otros mas</p>
+        </div>
+ <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h>
+CECINA CON GUACAMOLE Y ENSALADA
+<div>
+  <p></p>
+<br>
+</div>
+<div><img src="imagenes/GASTRONOMIA.jpg" width="50%" height="50%"></div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Mole poblano</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div>
+<img src="imagenes/gas.jpg" width="50%" height="50%"></div>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:70%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://atlixco.gob.mx/gastronomia" target="_self" id="beep" data-role="button">
+      <h2>Platillos</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="http://mipaisatlixco.blogspot.mx/2010/04/gastronomia.html" target="_self" id="vibrar" data-role="button">
+         <h2>Gastronomia </h2>
+         </a>
+        </li>
+      </ul>
+    </div>
+</div>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="128" height="128">
+</div>
+        <h4>Guia Turistica</h4>
+          <h4>Heroica Atlixco Puebla</h4>
+      </div>
+     </div>
+     </div>
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Ex-conevnto de San Francisco</h1>
+    </div>
+<div data-role="content" align="center">
+      <div>
+        <p>El ex-convento franciscano de Santa María de Jesús se ubica en el cerro de San Miguel, lugar ceremonial donde se celebra el Huey Atlixcayotl. Data del siglo XVI. Construido en dos periodos, el primero abarca de 1538 a 1550, el segundo de 1560 a 1620. Perteneció a los franciscanos, dedicado a evangelizar a los indígenas de la región. El conjunto arquitectónico lo forman un gran atrio, el templo y el convento. Tiene una puerta atrial con dos arcos y en la fachada los nichos del vía crucis. A mediados del siglo XIX fueron colocados en el templo parte de los bienes muebles de la iglesia del Carmen destacando entre ellos el retablo mayor que es considerado como uno de los más bellos que se ejecutaron en la Nueva España durante el siglo XVII.
+Es la primera fundación franciscana en el lugar que en el momento de la conquista española se llamó Acapetlahucán, que quiere decir; “lugar donde se hacían esteras de caña seca”, ubicada en las faldas del ahora cerro de San Miguel.
+Es durante el gobierno de la primera audiencia que fray Toribio de Benavente, “Motolinia”, funda entre los años de 1551 y 1562 el templo en una congregación de indios que había ayuntado fray Alonso de Buendía y lo dedica a la Visitación de Nuestra Señora.</p>
+</div>
+ <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h>Templo</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div>
+<img src="imagenes/franc.jpg" name="Image2" width="50%" height="50%" id="Image2"> </div>
+</div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>ex-convento</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div>
+<img src="imagenes/franc.jpg" width="50%" height="50%"></div>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:70%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://ahoranews.net/el-convento-franciscano-de-atlixco" target="_self" id="beep" data-role="button">
+      <h2>Conoce mas</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="http://puebla.travel/es/ver-hacer/sitios-de-interes/iglesias/item/ex-convento-franciscano-de-atlixco" target="_self" id="vibrar" data-role="button">
+         <h2>Leyenda </h2>
+         </a>
+        </li>
+      </ul>
+    </div>
+</div>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="128" height="128">
+</div>
+        <h4>Guia Turisitica</h4>
+          <h4>Heroica Atlixco Puebla</h4>
+      </div>
+     </div>
+     </div>
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Calle de las Flores</h1>
+    </div>
+<div data-role="content" align="center">
+      <div>
+        <p>Entre los atractivos de este lugar se puede disfrutar el molino de San Mateo, el acueducto Los Arcos, la Casa de la Audiencia , el edificio Rascón y la Iglesia de la Merced; también se puede pasear por el  zócalo disfrutando de una rica nieve.
+Los viveros son uno de los principales atractivos de la región, ya que por el clima se pueden encontrar una gran cantidad de flores y plantas.</p>
+</div>
+ <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h>Templo</h1>
+<div>
+<p></p>
+<img src="imagenes/cal1.jpg" width="50%" height="50%" alt="Imagen prueba"><br>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Lugares</h1>
+<div>
+<p></p>
+<br>
+</div>
+<div>
+<img src="imagenes/cal.jpg" width="50%" height="50%"></div>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:80%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://www.poblanerias.com/2013/09/atlixco-lugar-de-las-flores-de-puebla/" target="_self" id="beep" data-role="button">
+      <h2>Conoce mas</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="http://atlixco.gob.mx/lugares-de-interes" target="_self" id="vibrar" data-role="button">
+         <h2>Algunos lugares</h2>
+         </a>
+        </li>
+      </ul>
+    </div>
+</div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="128" height="128">
+</div>
+        <h4>Guia Turistica</h4>
+          <h4>AHeroica Atlixco Puebla</h4>
+      </div>
+     </div>
+     </div>
+     </div>
+     <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Datos del desarrollador</h1>
+    </div>
+    <div data-role="content" align="center">
+      <div>
+        <h2>Nombre:Aurora Berenice Gonzalez Aguilar</h2></div>
+        <div>
+       <h2>Semestre:4° Grupo:"H"</h2>
+       </div>
+       <div>
+       <h2>Profesor:Jose Antonio Gomez Hernandez</h2></div>
+       <div>
+       <h2>Sub-modulo:Desarrolla Aplicaciones Moviles</h2></div>
+        <img src="imagenes/fotoPerfil.jpg" width="50%" height="50%">
+       </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="128" height="128">
+</div>
+        <h4>Guia Turistica</h4>
+         <h4>Heroica Atlixco Puebla</h4>
+      </div>
+     </div>
+</body>
+</html>
